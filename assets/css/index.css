@@ -22,6 +22,7 @@
 
 #sec1.container .left-side .title {
   font-size: 5.625rem;
+  text-transform: uppercase;
   color: var(--content-white);
 }
 
