@@ -17,7 +17,7 @@ $(document).ready(() => {
 
     if (scroll > 40) {
       $("nav").css({
-        backgroundColor: "var(--clay)"
+        backgroundColor: "var(--primary-bg)"
       });
     } else {
       $("nav").css({
