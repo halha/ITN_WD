@@ -1,5 +1,6 @@
 :root {
   --black: #000;
+  --white: #fff;
   --primary-bg: #334463;
   --secondary-bg: #fcfcfc;
   --blue: #2492e3;
@@ -18,7 +19,7 @@
 
 body {
   background: var(--primary-bg);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 nav {
