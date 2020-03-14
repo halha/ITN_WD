@@ -153,6 +153,7 @@
 }
 
 #sec3.container .content {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -160,14 +161,18 @@
 
 #sec3.container .content .box {
   background: var(--secondary-bg);
+  width: 30%;
   height: 400px;
-  margin: 30px;
   padding: 45px 30px;
   border-radius: 10px;
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   transition: 0.3s;
+}
+
+#sec3.container .content .box:nth-child(even) {
+  margin: 0 50px;
 }
 
 #sec3.container .content .box:hover {
