@@ -8,7 +8,7 @@
   --title-white: #ffffff;
   --title-black: #0a0a0a;
   --content-white: #e6e6e6;
-  --content-black: #3b3b3b;
+  --content-black: #555555;
 }
 
 * {
@@ -123,6 +123,7 @@ nav ul li a:hover {
   font-weight: bold;
   color: var(--yellow);
 }
+
 /* 
 nav ul li a.button-green {
   color: var(--white);

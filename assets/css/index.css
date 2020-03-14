@@ -8,7 +8,8 @@
 }
 
 .title {
-  font-size: 3.75rem;
+  font-size: 2.5rem;
+  font-weight: bold;
   text-transform: capitalize;
   color: var(--title-white);
   text-align: center;
@@ -33,20 +34,21 @@
 }
 
 #sec1.container .left-side .main-title {
-  font-size: 5.625rem;
+  font-size: 4rem;
   text-transform: uppercase;
   color: var(--content-white);
 }
 
 #sec1.container .left-side .sub-title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: normal;
   color: var(--yellow);
 }
 
 #sec1.container .left-side .desc {
-  font-size: 1.563rem;
+  font-size: 1.5rem;
   color: var(--content-white);
+  padding-top: 2%;
 }
 
 #sec1.container .right-side {
@@ -99,17 +101,17 @@
 }
 
 #sec2.container .content .right-side .sub-title {
-  font-size: 1.563rem;
-  font-weight: 600;
+  font-size: 1.25rem;
+  font-weight: normal;
   color: var(--yellow);
-  padding-left: 20px;
-  padding-bottom: 20px;
+  /* padding-left: 20px; */
+  padding-bottom: 10px;
 }
 
 #sec2.container .content .right-side .desc {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   color: var(--content-white);
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 
 #sec2.container .content .right-side .button-box {
@@ -121,10 +123,10 @@
 #sec2.container .content .right-side .button-box a {
   display: inline-block;
   margin: 0 10px;
-  font-size: 1.563rem;
-  font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 300;
   text-decoration: none;
-  padding: 12px 24px;
+  padding: 6px 12px;
   border-radius: 30px;
   transition: 0.3s;
 }
@@ -155,15 +157,15 @@
 #sec3.container .content {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 #sec3.container .content .box {
   background: var(--secondary-bg);
-  width: 30%;
-  height: 400px;
-  padding: 45px 30px;
+  width: 20%;
+  height: 350px;
+  padding: 20px 30px;
   border-radius: 10px;
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -172,7 +174,7 @@
 }
 
 #sec3.container .content .box:nth-child(even) {
-  margin: 0 50px;
+  margin: 0 80px;
 }
 
 #sec3.container .content .box:hover {
@@ -191,7 +193,7 @@
 
 #sec3.container .content .box h3 {
   margin-bottom: 20px;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
   text-align: center;
   text-transform: capitalize;
@@ -258,12 +260,12 @@
 }
 
 #sec5.container .content a.item .right h4 {
-  font-size: 1.563rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: var(--yellow);
   margin-bottom: 10px;
 }
 
 #sec5.container .content a.item .right p {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
 }
