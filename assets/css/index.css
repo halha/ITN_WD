@@ -15,6 +15,10 @@
   margin-bottom: 60px;
 }
 
+.title.black {
+  color: var(--title-black);
+}
+
 /* SECTION 1 */
 #sec1.container {
   padding: 0;
@@ -185,10 +189,76 @@
   font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
+  text-transform: capitalize;
   color: var(--yellow);
 }
 
 #sec3.container .content .box p {
   font-size: 1.25rem;
   color: var(--content-black);
+}
+
+/* SECTION 4 */
+#sec4.container {
+  background: var(--secondary-bg);
+}
+
+/* SECTION 5 */
+#sec5.container {
+  background: var(--secondary-bg);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#sec5.container .content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#sec5.container .content a.item {
+  width: 45%;
+  margin: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--content-black);
+  transition: 0.3s;
+}
+
+#sec5.container .content a.item:hover {
+  transform: translateY(-5px);
+}
+
+#sec5.container .content a.item .left {
+  width: 35%;
+}
+
+#sec5.container .content a.item .left .img-box {
+  width: 95%;
+  height: 150px;
+  margin: auto;
+  background: #c1c1c1;
+}
+
+#sec5.container .content a.item .left .img-box img {
+  width: 100%;
+}
+
+#sec5.container .content a.item .right {
+  width: 65%;
+  padding-left: 20px;
+}
+
+#sec5.container .content a.item .right h4 {
+  font-size: 1.563rem;
+  font-weight: 600;
+  color: var(--yellow);
+  margin-bottom: 10px;
+}
+
+#sec5.container .content a.item .right p {
+  font-size: 1.25rem;
 }
