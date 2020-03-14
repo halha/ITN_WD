@@ -164,7 +164,7 @@
 #sec3.container .content .box {
   background: var(--secondary-bg);
   width: 20%;
-  height: 350px;
+  height: 20%;
   padding: 20px 30px;
   border-radius: 10px;
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1);
