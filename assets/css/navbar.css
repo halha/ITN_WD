@@ -114,8 +114,7 @@ nav ul div {
 
 nav ul li {
   list-style: none;
-  margin-left: 80px;
-  margin-left: 5rem;
+  margin-left: 40px;
   line-height: 35px;
 }
 
@@ -124,10 +123,11 @@ nav ul li a {
   display: inline-block;
   font-size: 16px;
   font-size: 1rem;
-  color: var(--white);
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.15em;
+  color: var(--white);
+  padding: 0 20px;
 }
 
 nav ul li a::after {
