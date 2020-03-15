@@ -4,7 +4,7 @@ $(document).ready(() => {
     let scroll = $(window).scrollTop();
     let screenHeight = window.innerHeight;
 
-    if (scroll > screenHeight * 1) {
+    if (scroll > screenHeight * 1 - 1) {
       $(".to-top").css({
         bottom: "5%"
       });
