@@ -16,10 +16,6 @@ $(document).ready(() => {
     let scroll = $(window).scrollTop();
     let screenHeight = window.innerHeight;
 
-    if (scroll > 200) {
-    } else {
-    }
-
     if (scroll > screenHeight * 0.5) {
       $("nav").addClass("fixed");
       $("nav ul li a").addClass("scroll");
