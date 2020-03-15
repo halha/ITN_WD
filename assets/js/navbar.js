@@ -14,6 +14,7 @@ $(document).ready(() => {
   // Scroll function
   $(window).scroll(e => {
     let scroll = $(window).scrollTop();
+    let screenHeight = window.innerHeight;
 
     if (scroll > 40) {
       $("nav").css({
@@ -23,6 +24,12 @@ $(document).ready(() => {
       $("nav").css({
         backgroundColor: "unset"
       });
+    }
+
+    if (scroll > screenHeight * 0.5) {
+      $("nav").addClass("fixed");
+    } else {
+      $("nav").removeClass("fixed");
     }
   });
 });

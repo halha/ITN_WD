@@ -33,12 +33,26 @@ nav {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 99;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+nav.fixed {
+  position: fixed !important;
+  animation: show 0.3s;
+}
+
+@keyframes show {
+  0% {
+    transform: translateY(-70px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 /* nav .logo {

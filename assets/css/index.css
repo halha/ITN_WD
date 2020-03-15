@@ -5,6 +5,7 @@
   overflow: hidden;
   box-sizing: border-box;
   padding: 50px 120px;
+  position: relative;
 }
 
 .title {
@@ -78,7 +79,6 @@
   background-image: url("../img/sec23b.png");
   background-size: auto 100%;
 }
-
 
 /* SECTION 2 */
 #sec2.container {
