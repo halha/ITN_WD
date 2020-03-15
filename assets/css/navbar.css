@@ -50,6 +50,7 @@ nav.fixed {
   0% {
     transform: translateY(-70px);
   }
+
   100% {
     transform: translateY(0);
   }
@@ -284,16 +285,3 @@ nav ul .hide {
     width: 80%;
   } */
 }
-
-/* Dimas Custom */
-/* 
-.tegas {
-  font-family: "Odibee Sans", cursive !important;
-  letter-spacing: 1.6px;
-  letter-spacing: 0.1rem;
-}
-
-#sec1 h1 {
-  font-size: 64px !important;
-  font-size: 4rem !important;
-} */
