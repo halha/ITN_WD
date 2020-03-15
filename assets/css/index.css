@@ -301,7 +301,7 @@
   position: fixed;
   bottom: -20%;
   right: 3%;
-  background: var(--white);
+  background: var(--secondary-bg);
   transition: 0.3s;
 }
 
