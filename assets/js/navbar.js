@@ -22,6 +22,8 @@ $(document).ready(() => {
 
     if (scroll > screenHeight * 0.5) {
       $("nav").addClass("fixed");
+      $("nav ul li a").addClass("scroll");
+
       $("nav").css({
         backgroundColor: "var(--secondary-bg)",
         boxShadow: "0 6px 12px rgba(0, 0, 0, .1)"
@@ -31,6 +33,8 @@ $(document).ready(() => {
       });
     } else {
       $("nav").removeClass("fixed");
+      $("nav ul li a").removeClass("scroll");
+
       $("nav").css({
         backgroundColor: "unset",
         boxShadow: "unset"

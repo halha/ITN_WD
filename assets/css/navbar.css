@@ -120,23 +120,36 @@ nav ul li {
 }
 
 nav ul li a {
+  position: relative;
+  display: inline-block;
   font-size: 16px;
   font-size: 1rem;
-  font-weight: bold;
+  color: var(--white);
+  text-transform: uppercase;
   text-decoration: none;
-  color: var(--content-white);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  letter-spacing: 0.15em;
 }
 
-nav ul li a.active {
-  font-weight: bold;
-  color: var(--yellow);
+nav ul li a::after {
+  content: "";
+  height: 2px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background: none repeat scroll 0 0 transparent;
+  background: var(--white);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
 }
 
-nav ul li a:hover {
-  font-weight: bold;
-  color: var(--yellow);
+nav ul li a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+nav ul li a.scroll::after {
+  background: var(--black) !important;
 }
 
 /* 
