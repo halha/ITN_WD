@@ -16,20 +16,28 @@ $(document).ready(() => {
     let scroll = $(window).scrollTop();
     let screenHeight = window.innerHeight;
 
-    if (scroll > 40) {
-      $("nav").css({
-        backgroundColor: "var(--primary-bg)"
-      });
+    if (scroll > 200) {
     } else {
-      $("nav").css({
-        backgroundColor: "unset"
-      });
     }
 
     if (scroll > screenHeight * 0.5) {
       $("nav").addClass("fixed");
+      $("nav").css({
+        backgroundColor: "var(--secondary-bg)",
+        boxShadow: "0 6px 12px rgba(0, 0, 0, .1)"
+      });
+      $("nav ul li a").css({
+        color: "var(--content-black)"
+      });
     } else {
       $("nav").removeClass("fixed");
+      $("nav").css({
+        backgroundColor: "unset",
+        boxShadow: "unset"
+      });
+      $("nav ul li a").css({
+        color: "var(--content-white)"
+      });
     }
   });
 });
