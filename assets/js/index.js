@@ -1,4 +1,17 @@
 $(document).ready(() => {
+  // Animation
+  $("#sec1.container .left-side .main-title").css({
+    animation: "fade-in 1s"
+  });
+
+  $("#sec1.container .left-side .sub-title").css({
+    animation: "fade-in 1.25s"
+  });
+
+  $("#sec1.container .left-side .desc").css({
+    animation: "fade-in 1.5s"
+  });
+
   // Scroll function
   $(window).scroll(e => {
     let scroll = $(window).scrollTop();
