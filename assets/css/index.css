@@ -22,12 +22,6 @@
   color: var(--title-black);
 }
 
-/* SECTION 1 */
-/* #sec1 {
-  background-image: url("../img/bg1.jpg");
-  background-size: 100%;
-} */
-
 #sec1.container {
   padding: 0;
   display: flex;
@@ -38,7 +32,45 @@
 #sec1.container .left-side {
   width: 50%;
   padding: 0 10%;
+  margin-top: -50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* IKI TAMBAHAN ANYAR logo kurang lebih ................................. */
+#sec1.container .left-side img {
+  height: 120px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+/* IKI TAMBAHAN ANYAR logo kurang lebih ................................. */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #sec1.container .left-side .main-title {
   font-size: 3.5rem;
@@ -306,11 +338,13 @@
   color: var(--content-black);
 }
 
-/* SECTION 4 */
-#sec4.container {
-  background: var(--secondary-bg);
+/* BG SECTION 2-3 */
+.bg45 {
+  background-image: url("../img/sec45.png");
+  background-size: auto 100%;
 }
 
+/* SECTION 4 */
 #sec4.container .content {
   width: 80%;
   margin: auto;
@@ -394,7 +428,6 @@
 
 /* SECTION 5 */
 #sec5.container {
-  background: var(--secondary-bg);
   flex-direction: column;
   justify-content: center;
   align-items: center;

@@ -28,7 +28,7 @@ $(document).ready(() => {
         color: "var(--black)"
       });
       $("nav .logo").css({
-        color: "var(--black)"
+        visibility: "visible"
       });
     } else {
       $("nav").removeClass("fixed");
@@ -42,7 +42,7 @@ $(document).ready(() => {
         color: "var(--content-white)"
       });
       $("nav .logo").css({
-        color: "var(--content-white)"
+        visibility: "hidden"
       });
     }
   });
