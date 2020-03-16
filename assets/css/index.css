@@ -102,7 +102,6 @@
     -webkit-transform: translateY(0);
   }
 
-
   50% {
     -webkit-transform: translateY(-10px);
   }
@@ -117,7 +116,6 @@
     -webkit-transform: translateX(0);
   }
 
-
   50% {
     -webkit-transform: translateX(-10px);
   }
@@ -128,11 +126,9 @@
 }
 
 @keyframes flow {
-
   0% {
     transform: translateY(0);
   }
-
 
   50% {
     transform: translateY(-10px);
@@ -144,11 +140,9 @@
 }
 
 @keyframes side {
-
   0% {
     transform: translateX(0);
   }
-
 
   50% {
     transform: translateX(-10px);
@@ -315,6 +309,86 @@
 /* SECTION 4 */
 #sec4.container {
   background: var(--secondary-bg);
+}
+
+#sec4.container .content {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#sec4.container .content .arrow {
+  width: 70px;
+}
+
+#sec4.container .content .arrow .left,
+#sec4.container .content .arrow .right {
+  cursor: pointer;
+}
+
+#sec4.container .content .arrow .left {
+  display: none;
+  transform: rotate(-90deg);
+}
+
+#sec4.container .content .arrow .right {
+  transform: rotate(90deg);
+}
+
+#sec4.container .content .arrow img {
+  width: 100%;
+}
+
+#sec4.container .content .center {
+  width: 70%;
+  overflow: hidden;
+}
+
+#sec4.container .content .center .wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+#sec4.container .content .center .wrapper .slide {
+  width: 100%;
+  padding: 20px;
+  flex-shrink: 0;
+  display: inline-block;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+#sec4.container .content .center .wrapper .slide .img-rounded {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#sec4.container .content .center .wrapper .slide .img-rounded img {
+  width: 200%;
+}
+
+#sec4.container .content .center .wrapper .slide h3 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: var(--yellow);
+}
+
+#sec4.container .content .center .wrapper .slide p {
+  text-align: center;
+  font-size: 1.25rem;
 }
 
 /* SECTION 5 */
