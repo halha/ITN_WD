@@ -65,9 +65,14 @@ footer .row-1 .c.c1 .logo img {
 
 footer .row-1 .c.c4 .map {
   width: 100%;
-  height: 100%;
+  height: 300px;
   margin: auto;
   background: var(--secondary-bg);
+}
+
+footer .row-1 .c.c4 .map iframe {
+  width: 100%;
+  height: 100%;
 }
 
 footer .row-2 {
