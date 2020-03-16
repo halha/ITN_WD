@@ -16,6 +16,7 @@ body {
 /* OVERRIDE NAV */
 nav .logo {
   color: var(--black);
+  visibility: visible;
 }
 
 nav ul li a {
@@ -95,13 +96,7 @@ nav ul li a::after {
 }
 
 #sec1.container .left .comment form .row-1 .input-container input[type="text"],
-#sec1.container
-  .left
-  .comment
-  form
-  .row-1
-  .input-container
-  input[type="email"] {
+#sec1.container .left .comment form .row-1 .input-container input[type="email"] {
   width: 100%;
   height: 30px;
   font-size: 1rem;

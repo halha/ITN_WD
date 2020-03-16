@@ -14,6 +14,7 @@ body {
 /* OVERRIDE NAV */
 nav .logo {
   color: var(--black);
+  visibility: visible;
 }
 
 nav ul li a {

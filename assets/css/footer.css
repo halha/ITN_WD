@@ -21,6 +21,7 @@ footer .row-1 .c {
 
 footer .row-1 .c h4 {
   font-size: 1.25rem;
+  color: var(--yellow);
   margin-bottom: 20px;
 }
 

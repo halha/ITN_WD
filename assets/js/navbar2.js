@@ -28,7 +28,8 @@ $(document).ready(() => {
         color: "var(--black)"
       });
       $("nav .logo").css({
-        color: "var(--black)"
+        color: "var(--black)",
+        visibility: "visible"
       });
     } else {
       $("nav").removeClass("fixed");
