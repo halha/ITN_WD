@@ -5,11 +5,11 @@ $(document).ready(() => {
   });
 
   $("#sec1.container .left-side .sub-title").css({
-    animation: "fade-in 1.25s"
+    animation: "fade-in 1.1s"
   });
 
   $("#sec1.container .left-side .desc").css({
-    animation: "fade-in 1.5s"
+    animation: "fade-in 1.2s"
   });
 
   // Scroll function
