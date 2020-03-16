@@ -39,7 +39,7 @@ $(document).ready(() => {
         boxShadow: "unset"
       });
       $("nav ul li a").css({
-        color: "var(--content-white)"
+        color: "var(--white)"
       });
       $("nav .logo").css({
         color: "var(--white)"
