@@ -320,7 +320,7 @@
 }
 
 #sec4.container .content .arrow {
-  width: 70px;
+  width: 50px;
 }
 
 #sec4.container .content .arrow .left,
@@ -338,7 +338,7 @@
 }
 
 #sec4.container .content .arrow img {
-  width: 100%;
+  width: 70%;
 }
 
 #sec4.container .content .center {
@@ -381,14 +381,15 @@
 #sec4.container .content .center .wrapper .slide h3 {
   text-align: center;
   text-transform: capitalize;
-  font-size: 2.5rem;
-  margin-bottom: 30px;
+  font-size: 1.5rem;
+  margin-bottom: 25 px;
   color: var(--yellow);
 }
 
 #sec4.container .content .center .wrapper .slide p {
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1rem;
+  color: var(--content-black);
 }
 
 /* SECTION 5 */
