@@ -59,6 +59,7 @@ nav.fixed {
 nav .logo {
   font-size: 19.2px;
   font-size: 1.2rem;
+  font-weight: bold;
   line-height: 40px;
   text-decoration: none;
   text-transform: uppercase;
