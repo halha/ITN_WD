@@ -56,19 +56,16 @@ nav.fixed {
   }
 }
 
-/* nav .logo {
+nav .logo {
   font-size: 19.2px;
   font-size: 1.2rem;
   line-height: 40px;
   text-decoration: none;
   text-transform: uppercase;
-  color: var(--black);
-}
-
-nav .logo h1 {
+  color: var(--content-white);
   letter-spacing: 1.6px;
   letter-spacing: 0.1rem;
-} */
+}
 
 nav .show {
   position: relative;
@@ -130,6 +127,7 @@ nav ul li a {
   padding: 0 20px;
 }
 
+nav ul li a.active::after,
 nav ul li a::after {
   content: "";
   height: 2px;
@@ -143,6 +141,7 @@ nav ul li a::after {
   width: 0;
 }
 
+nav ul li a.active::after,
 nav ul li a:hover::after {
   width: 100%;
   left: 0;

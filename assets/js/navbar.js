@@ -25,7 +25,10 @@ $(document).ready(() => {
         boxShadow: "0 6px 12px rgba(0, 0, 0, .1)"
       });
       $("nav ul li a").css({
-        color: "var(--content-black)"
+        color: "var(--black)"
+      });
+      $("nav .logo").css({
+        color: "var(--black)"
       });
     } else {
       $("nav").removeClass("fixed");
@@ -36,6 +39,9 @@ $(document).ready(() => {
         boxShadow: "unset"
       });
       $("nav ul li a").css({
+        color: "var(--content-white)"
+      });
+      $("nav .logo").css({
         color: "var(--content-white)"
       });
     }
