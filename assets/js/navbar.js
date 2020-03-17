@@ -43,7 +43,7 @@ $(document).ready(() => {
         color: "var(--white)"
       });
       $("nav .logo").css({
-        visibility: "hidden"
+        color: "var(--white)"
       });
     }
   });
