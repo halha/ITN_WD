@@ -191,11 +191,12 @@ nav ul .hide {
     z-index: 999;
     -webkit-transition: 0.7s;
     transition: 0.7s;
-  }
-
-  nav ul {
     display: block;
     padding: 20px 0;
+  }
+
+  nav ul.primary {
+    background: var(--primary-bg);
   }
 
   nav ul div {
@@ -247,11 +248,12 @@ nav ul .hide {
     z-index: 999;
     -webkit-transition: 0.7s;
     transition: 0.7s;
-  }
-
-  nav ul {
     display: block;
     padding: 20px 0;
+  }
+
+  nav ul.primary {
+    background: var(--primary-bg);
   }
 
   nav ul div {
