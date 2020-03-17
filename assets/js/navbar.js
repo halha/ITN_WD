@@ -20,6 +20,7 @@ $(document).ready(() => {
       $("nav").addClass("fixed");
       $("nav ul li a").addClass("scroll");
       $("nav .show").removeClass("white");
+      $("nav .hide").removeClass("white");
 
       $("nav").css({
         backgroundColor: "var(--secondary-bg)",
@@ -27,9 +28,6 @@ $(document).ready(() => {
       });
       $("nav ul").css({
         background: "var(--secondary-bg)"
-      });
-      $("nav ul .hide").css({
-        color: "var(--black)"
       });
       $("nav ul li a").css({
         color: "var(--black)"
@@ -42,6 +40,7 @@ $(document).ready(() => {
       $("nav").removeClass("fixed");
       $("nav ul li a").removeClass("scroll");
       $("nav .show").addClass("white");
+      $("nav .hide").addClass("white");
 
       $("nav").css({
         backgroundColor: "unset",
@@ -52,9 +51,6 @@ $(document).ready(() => {
       });
       $("nav ul").css({
         background: "var(--primary-bg)"
-      });
-      $("nav ul .hide").css({
-        color: "var(--white)"
       });
       $("nav ul li a").css({
         color: "var(--white)"

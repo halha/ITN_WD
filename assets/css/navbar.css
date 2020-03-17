@@ -160,6 +160,9 @@ nav ul li a.scroll::after {
 
 nav ul .hide {
   font-size: 40px;
+}
+
+nav ul .hide.white {
   color: var(--white);
 }
 
