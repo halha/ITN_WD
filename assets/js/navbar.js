@@ -19,10 +19,17 @@ $(document).ready(() => {
     if (scroll > screenHeight * 0.5) {
       $("nav").addClass("fixed");
       $("nav ul li a").addClass("scroll");
+      $("nav .show").removeClass("white");
 
       $("nav").css({
         backgroundColor: "var(--secondary-bg)",
         boxShadow: "0 6px 12px rgba(0, 0, 0, .1)"
+      });
+      $("nav ul").css({
+        background: "var(--secondary-bg)"
+      });
+      $("nav ul .hide").css({
+        color: "var(--black)"
       });
       $("nav ul li a").css({
         color: "var(--black)"
@@ -34,15 +41,22 @@ $(document).ready(() => {
     } else {
       $("nav").removeClass("fixed");
       $("nav ul li a").removeClass("scroll");
+      $("nav .show").addClass("white");
 
       $("nav").css({
         backgroundColor: "unset",
         boxShadow: "unset"
       });
-      $("nav ul li a").css({
+      $("nav .logo").css({
         color: "var(--white)"
       });
-      $("nav .logo").css({
+      $("nav ul").css({
+        background: "var(--primary-bg)"
+      });
+      $("nav ul .hide").css({
+        color: "var(--white)"
+      });
+      $("nav ul li a").css({
         color: "var(--white)"
       });
     }
