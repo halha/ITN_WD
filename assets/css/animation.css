@@ -18,6 +18,7 @@
   }
 }
 
+/* ONLY TO SEE ANIMATION PROPERTY */
 .test {
   animation: zoom 3s ease;
 }
