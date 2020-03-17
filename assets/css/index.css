@@ -35,42 +35,15 @@
   margin-top: -50px;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* IKI TAMBAHAN ANYAR logo kurang lebih ................................. */
 #sec1.container .left-side img {
   height: 120px;
   padding-left: 30px;
   padding-bottom: 30px;
+  animation: fade-in 0.9s;
 }
 
 /* IKI TAMBAHAN ANYAR logo kurang lebih ................................. */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #sec1.container .left-side .main-title {
   font-size: 3.5rem;
@@ -495,7 +468,7 @@
   bottom: -20%;
   right: 3%;
   background: rgba(5, 5, 5, 0.3);
-  transition: 0.3s;
+  transition: width 0.3s forwards;
 }
 
 .to-top .img-box {
@@ -505,8 +478,24 @@
 
 .to-top .img-box img {
   width: 100%;
+  animation: up 2s infinite;
 }
 
 .to-top .img-box.hidden {
   display: none;
+}
+
+@keyframes up {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-0.5rem);
+  }
 }

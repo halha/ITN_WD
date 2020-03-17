@@ -30,6 +30,11 @@ $(document).ready(() => {
         () => {
           $(".to-top #up-hover").addClass("hidden");
           $(".to-top #up-normal").removeClass("hidden");
+        },
+        () => {
+          $(".to-top").css({
+            animation: "none"
+          });
         }
       );
     } else {
