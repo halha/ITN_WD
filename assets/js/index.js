@@ -98,6 +98,4 @@ $(document).ready(() => {
       });
     }
   });
-
-  console.log(counter);
 });
