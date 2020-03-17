@@ -1,5 +1,8 @@
 $(document).ready(() => {
   // Animation
+  $("#sec1.container .left-side .main-logo").css({
+    animation: "fade-in 0.9s"
+  });
   $("#sec1.container .left-side .main-title").css({
     animation: "fade-in 1s"
   });
