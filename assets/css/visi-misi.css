@@ -32,6 +32,11 @@ nav ul li a::after {
   margin: auto;
 }
 
+#sec1.container .vision,
+#sec1.container .mision {
+  margin-bottom: 30px;
+}
+
 #sec1.container h1 {
   text-align: center;
   font-size: 2rem;
@@ -46,4 +51,19 @@ nav ul li a::after {
 
 #sec1.container ol {
   margin-left: 1rem;
+}
+
+#sec1.container ol li {
+  margin-bottom: 1rem;
+}
+
+/* RESPONSIVE MOBILE */
+@media screen and (max-width: 425px) {
+  .container {
+    padding: 100px 30px;
+  }
+
+  #sec1.container {
+    width: 100%;
+  }
 }
