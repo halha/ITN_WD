@@ -46,7 +46,8 @@ $(document).ready(() => {
         boxShadow: "unset"
       });
       $("nav .logo").css({
-        color: "var(--white)"
+        color: "var(--white)",
+        visibility: "hidden"
       });
       $("nav ul li a").css({
         color: "var(--white)"
