@@ -166,8 +166,8 @@
 
 /* BG SECTION 2-3 */
 .bg23 {
-  background: url("../img/sec23b.png") no-repeat center;
-  background-size: auto 100%;
+  background: url("../img/sec23b.png") no-repeat left;
+  background-size: auto 120%;
 }
 
 /* SECTION 2 */
@@ -504,8 +504,10 @@
     transform: translateY(-0.5rem);
   }
 }
+
 /* RESPONSIVE MOBILE */
 @media screen and (max-width: 425px) {
+
   /* UNIVERSAL */
   .container {
     padding: 50px 30px;
@@ -613,39 +615,51 @@
     0% {
       transform: translateX(0);
     }
+
     14.3% {
       transform: translateX(0);
     }
+
     16.6% {
       transform: translateX(-100%);
     }
+
     30.9% {
       transform: translateX(-100%);
     }
+
     33.2% {
       transform: translateX(-200%);
     }
+
     47.5% {
       transform: translateX(-200%);
     }
+
     49.8% {
       transform: translateX(-300%);
     }
+
     64.1% {
       transform: translateX(-300%);
     }
+
     66.4% {
       transform: translateX(-200%);
     }
+
     80.7% {
       transform: translateX(-200%);
     }
+
     83% {
       transform: translateX(-100%);
     }
+
     97.7% {
       transform: translateX(-100%);
     }
+
     100% {
       transform: translateX(0);
     }
